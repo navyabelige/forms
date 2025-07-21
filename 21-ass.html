@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <center><img src="../html images/bus passs.jpg"width="100%"></center>
+    <fieldset>
+        <legend>Application Details</legend>
+        <form action="./submit.html" method="get"enctype="text/plain" autocomplete="off">
+        <center>
+        <table width="80%">
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                    <input type="text" name="Name" id="name" >
+                </td>
+                <td>
+                    <label for="father">Father's name:</label>
+                    <input type="text" name="father's name" id="father">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">DOB:</label>
+                    <input type="date" name="date" id="date">
+                </td>
+                <td>
+                    <label for="">Gender:</label>
+                    <input type="radio" name="gender"id="male" valuename="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="gender"id="female" valuename="female">
+                    <label for="female">female</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Age as on:</label>
+                    <label for="year">year</label>
+                    <input type="text" name="year" id="year" size="1">
+                    <label for="Months">Months</label>
+                    <input type="text" name="month" id="Months" size="1" >
+                    <label for="days">Day's:</label>
+                    <input type="text" name="days" id="days" size="1">
+                </td>
+                <td>
+                    <label for="number">Aadhar No:</label>
+                    <input type="text" name="Number" id="number"Maxlength="12"minilegnth="12">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="number">What'sapp No:</label>
+                    <input type="text" name="Number" id="number">
+                </td>
+                <td>
+                    <label for="email">E-mail Id:</label>
+                    <input type="text" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">Photo:</label>
+                    <input type="file" name="file" id="photo">
+                </td>
+            </tr>
+              </table>
+    </fieldset>
+            <fieldset>
+                <legend>Residential Address Details</legend>
+                <center>
+                <table width="80%">
+                    <tr>
+                        <td>
+                            <label for="Application">Application Address:</label>
+                            <input type="text" name="Address" id="Application">
+                        </td>
+                        <td>
+                            <label for="district">District:</label>
+                            <input type="text" name="district" id="district">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mandal">Mandal:</label>
+                            <select name="mandal" id="mandal"><option value="kalher">kalher</option></select>
+                        </td>
+                        <td>
+                            <label for="Fathepoor">Village:</label>
+                            <select name="village" id="Fathepoor"><option value="Fathepoor">Fathepoor</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="code">Pincode:</label>
+                            <input type="text" name="123456" id="code">
+                        </td>
+                    </tr>
+                </table>
+                </center>
+            </fieldset>
+            <fieldset>
+                <legend>Pass Type Details:</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="123">City:</label>
+                            <select name="Hyderabad" id="123"><option value="Hyderabad">Hyderabad</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="type">Pass Type:</label>
+                            <select name="pass" id="type"><option value="">--select--</option></select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <center>
+            <img src="../html images/captcha.jpg">
+            <br><br>
+            <label for="img"></label>
+            <input type="text" name="captcha" id="img"><br><br>
+            <input type="submit">
+            </center>
+           </form>
+           </center>
+    
+</body>
+</html>
